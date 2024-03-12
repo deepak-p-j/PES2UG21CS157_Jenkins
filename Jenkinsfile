@@ -3,10 +3,10 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'g++ -o task5 main/hello.cpp'
+        sh 'g++ -o task5 main/hell.cpp'
         echo 'Build Successful!'
       }
-    
+    }
     stage('Test') {
       steps {
         sh './task5'
