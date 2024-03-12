@@ -6,7 +6,7 @@ pipeline {
         sh 'g++ -o task5 main/hello.cpp'
         echo 'Build Successful!'
       }
-    }
+    
     stage('Test') {
       steps {
         sh './task5'
